@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>IAG Home</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="col-sm-5">
+            <div class="collapse navbar-collapse" id="bs-IAG-home-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Project Alvin</a></li>
+                            <li><a href="#">Project B</a></li>
+                            <!--
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                    -->
+                        </ul>
+                    </li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Members</a></li>
+
+                    <li><a class="visible-xs" href="#">Club</a></li>
+                    <li><a class="visible-xs" href="#">Media</a></li>
+                    <li><a class="visible-xs" href="#">Contact</a></li>
+                </ul>
+                <!--
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        -->
+            </div>
+        </div>
+       
+        <a class="navbar-brand col-sm-2" href="#">I.A.G.</a>
+ 
+        <div class="col-sm-5 navbar-right">
+            <div class="collapse navbar-collapse col-md-4">
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Club</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- 
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    -->
+                    
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-IAG-home-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="color:white"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="1"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img alt="First slide" src="./pictures/bmw-1995-garage1.jpg">
+                <div class="carousel-caption">
+                    <h3>Project Alvin</h3>
+                    <p>1995 BMW in garage</p>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="Second slide" src="./pictures/bmw-1995-garage2.jpg">
+                <div class="carousel-caption">
+                    <h3>Project Alvin</h3>
+                    <p>1995 BMW in garage</p>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="Third slide" src="./pictures/bmw-1995-garage.jpg">
+                <div class="carousel-caption">
+                    <h3>Project Alvin</h3>
+                    <p>Dashboard</p>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#my-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <footer>
+        <div class="panel-footer container-fluid">            
+            <p class="col-xs-6" style="text-align:right;border-right:solid white 1px">
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                2015 Immanuel Auto Group
+            </p>
+            <p class="col-xs-6" style="border-left:solid white 1px">
+                <a href="https://www.facebook.com/groups/398458573690063/" style="color:white">facebook</a>
+
+            </p>
+        </div>
+    </footer>
+    
+
+    
+    <script src="./scripts/jquery-2.1.4.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+
+    <style>
+        .carousel {
+            margin-top:50px;
+        }
+
+        .navbar {
+            margin-bottom:0px;
+            background-image: url("./pictures/texture-carbon-fibre-2.png");
+            border-radius:0px;
+            border-color:rgba(0,0,0,0.4);         
+
+            /*
+            background-color:#2C3E50;
+            border-color:#2C3E50;  
+            */
+        }
+
+        .navbar-brand {
+            text-align:center;
+            color:white;
+        }
+
+        .panel-footer {
+            /*
+            background-color:#2C3E50;
+            border-color:#2C3E50;
+            */
+            background-image:url("./pictures/texture-carbon-fibre-2.png");
+            border-color:rgba(0,0,0,0.4);
+            border-radius:0px;
+        }
+
+        footer {
+            /*background-color:#2C3E50 !important;*/
+            background-image:url("./pictures/texture-carbon-fibre-2.png");
+        }
+
+        .panel-footer > p {
+            color:white;
+        }
+
+        .carousel-inner > .item > img {
+            height:100%;
+            width: 100%;
+        }
+
+        .nav.navbar-nav.navbar-right li a {
+            color: white;
+        }
+
+        .nav.navbar-nav.navbar-left li a {
+            color: white;
+        }
+
+        .navbar-brand{
+            color: white !important;
+        }
+
+        .dropdown-menu > li > a {
+           color:#2C3E50 !important;
+        }
+
+        .navbar-toggle {
+            background:rgba(0,0,0,0.4);
+            border:solid white 2px;
+        }
+        
+
+    </style>
+    <script>
+        
+    </script>
+</body>
+
+
+</html>

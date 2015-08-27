@@ -1,0 +1,40 @@
+﻿.carousel {
+            margin-top:0px;
+        }
+        .navbar {
+            margin-bottom:0px;
+            background-color:black;  
+            border-radius:0px;
+            border-color:black;          
+        }
+        .navbar-brand {
+            text-align:center;
+            color:white;
+        }
+
+        .panel-footer {
+            background-color:black;
+            border-radius:0px;
+            border-color:black;
+        }
+
+        .panel-footer > p {
+            color:white;
+        }
+
+        .carousel-inner > .item > img {
+            height:100%;
+            width: 100%;
+        }
+
+        .nav.navbar-nav.navbar-right li a {
+            color: white;
+        }
+
+        .nav.navbar-nav.navbar-left li a {
+            color: white;
+        }
+
+        .navbar-brand{
+            color: white !important;
+        }
